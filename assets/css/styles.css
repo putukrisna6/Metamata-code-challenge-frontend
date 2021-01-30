@@ -1,0 +1,64 @@
+.header-title {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-style: normal;
+  line-height: 56.35px;
+}
+
+@media (min-width: 768px) {
+  .header-title {
+    font-size: 48px;
+  }
+}
+
+.main-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-style: normal;
+  line-height: 70px;
+  color: #F7F8E2;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 60px;
+  }
+}
+
+.main-image {
+  background-image: url("../../assets/img/wvpsxx1468256321%201.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1024px;
+  border-radius: 0px 0px 20px 20px;
+  min-width: 300px;
+  width: 70%;
+  height: 422px;
+}
+
+.rectangle-2 {
+  border-radius: 50px;
+  background: #9CCD62;
+  width: 100%;
+  height: 41px;
+  color: white;
+  font-family: Roboto, sans-serif;
+  display: inline-block;
+}
+
+.search {
+  width: 60%;
+}
+
+.rectangle-1 {
+  border-radius: 50px;
+  border: 1px solid #9CCD62;
+  box-sizing: border-box;
+  width: 100%;
+  height: 41px;
+  display: inline-block;
+}
+
