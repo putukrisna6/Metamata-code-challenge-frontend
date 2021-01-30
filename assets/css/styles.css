@@ -5,12 +5,6 @@
   line-height: 56.35px;
 }
 
-@media (min-width: 768px) {
-  .header-title {
-    font-size: 48px;
-  }
-}
-
 .main-title {
   font-family: 'Raleway';
   font-weight: 700;
@@ -22,43 +16,163 @@
   margin: auto;
 }
 
-@media (min-width: 768px) {
-  .main-title {
-    font-size: 60px;
-  }
-}
-
 .main-image {
   background-image: url("../../assets/img/wvpsxx1468256321%201.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1024px;
   border-radius: 0px 0px 20px 20px;
-  min-width: 300px;
-  width: 70%;
-  height: 422px;
-}
-
-.rectangle-2 {
-  border-radius: 50px;
-  background: #9CCD62;
   width: 100%;
-  height: 41px;
-  color: white;
-  font-family: Roboto, sans-serif;
-  display: inline-block;
+  height: 422px;
 }
 
 .search {
   width: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.rectangle-1 {
+.btn-search {
+  width: 140px;
+  height: 41px;
+  left: 985px;
+  top: 557px;
+
+  background: #9CCD62;
   border-radius: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.form-search {
+  background: #FFFFFF;
   border: 1px solid #9CCD62;
   box-sizing: border-box;
-  width: 100%;
-  height: 41px;
-  display: inline-block;
+  border-radius: 50px;
 }
 
+.result-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-style: normal;
+  line-height: 28px;
+  color: #9CCD62;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.favorites {
+  text-align: center;
+}
+
+.recipe-list {
+  width: 70%;
+}
+
+.child {
+  padding: 15px;
+  width: 70%;
+  position: relative;
+
+}
+
+@media (min-width: 1000px) {
+  .child {
+    width: 33.33%;
+  }
+}
+
+.recipe-item {
+  background: #3A3C42;
+  border-radius: 10px;
+  min-width: 100%;
+  height: 205px;
+}
+
+.recipe-pic {
+  background-image: url("../../assets/img/xxyupu14682625131.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  min-width: 100%;
+  height: 150px;
+}
+
+.recipe-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  
+  padding: 15px;
+
+  color: #9CCD62;
+}
+
+.recipe-rectangle {
+  padding: 10px 15px 15px 15px;
+}
+
+.recipe-button {
+  background: #9CCD62;
+  border-radius: 10px;
+  width: 71px;
+  height: 37px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+
+}
+
+.page-footer {
+  background: #DFDECA;
+  height: 70px;
+  width: 100%;
+}
+
+.page-footer-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #3A3C42;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 60px;
+  }
+  .page-footer-title {
+    font-size: 24px;
+  }
+  .header-title {
+    font-size: 48px;
+  }
+  .page-footer {
+    height: 97px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .recipe-title {
+    font-size: 18px;
+  }
+  .recipe-button {
+    font-size: 18px;
+    width: 80px;
+  }
+}
