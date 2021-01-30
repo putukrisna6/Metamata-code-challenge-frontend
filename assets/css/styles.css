@@ -27,13 +27,13 @@
 }
 
 .search {
-  width: 60%;
+  width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .btn-search {
-  width: 140px;
+  width: 100%;
   height: 41px;
   left: 985px;
   top: 557px;
@@ -44,7 +44,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 21px;
   color: #FFFFFF;
 }
@@ -84,6 +84,9 @@
 @media (min-width: 1000px) {
   .child {
     width: 33.33%;
+  }
+  .search {
+    width: 60%;
   }
 }
 
@@ -164,6 +167,12 @@
   }
   .page-footer {
     height: 97px;
+  }
+  .search {
+    width: 80%;
+  }
+  .btn-search {
+    font-size: 18px;
   }
 }
 
