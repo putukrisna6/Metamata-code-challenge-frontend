@@ -12,104 +12,119 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<!-- header -->
+<header>
     <nav class="navbar navbar-light navbar-expand-md navigation-clean">
         <div class="container">
             <h1 class="header-title mx-auto">RecipeBooks</h1>
         </div>
     </nav>
-    <div class="container">
-        <div class="mx-auto d-flex justify-content-center main-image">
-            <h1 class="main-title">Temukan Resep Manca Negara Terbaik Disini</h1>
-        </div>
+</header>
 
-        <!-- strezz -->
-        <div>
-            <div class="container search">
-                <form action="">
-                    <div class="row justify-content-center">
-                        <div class="col-10">
-                            <input type="text" class="form-control form-search">
-                        </div>
-                        <div class="col-2">
-                            <button class="btn btn-search">Cari</button>
-                        </div>
-                    </div>
-
-                </form>
-            </div>
-        </div>
-
-        <div class="mx-auto row d-flex justify-content-center align-items-center">
-            <h3 class="result-title">Hasil Pencarian Resep</h3>
-        </div>
-
-        <div class="mx-auto d-flex flex-wrap recipe-list justify-content-center align-items-center" style="margin-bottom: 75px;">
-            <div class="child">
-                <div class="recipe-item">
-                    <div class="recipe-pic">
-                        
-                    </div>
-                    <div class="row">
-                        <div class="d-flex col-6 justify-content-start align-items-start">
-                            <h4 class="recipe-title" >Fish Pie</h4>
-                        </div>
-                        <div class="d-flex col-6 text-center justify-content-end align-items-start">
-                            <div class="recipe-rectangle">
-                                <button class="btn recipe-button">Favorit</button>  
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="child">
-                <div class="recipe-item">
-                    <div class="recipe-pic">
-                        
-                    </div>
-                    <div class="row">
-                        <div class="d-flex col-6 justify-content-start align-items-start">
-                            <h4 class="recipe-title" >Fish Pie</h4>
-                        </div>
-                        <div class="d-flex col-6 text-center justify-content-end align-items-start">
-                            <div class="recipe-rectangle">
-                                <button class="btn recipe-button">Favorit</button>  
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="child">
-                <div class="recipe-item">
-                    <div class="recipe-pic">
-                        
-                    </div>
-                    <div class="row">
-                        <div class="d-flex col-6 justify-content-start align-items-start">
-                            <h4 class="recipe-title" >Fish Pie</h4>
-                        </div>
-                        <div class="d-flex col-6 text-center justify-content-end align-items-start">
-                            <div class="recipe-rectangle">
-                                <button class="btn recipe-button">Favorit</button>  
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
+<!-- content -->
+<body>
+    <main>
+        <div class="container">
+            <!-- title banner -->
     
+            <div class="mx-auto d-flex justify-content-center main-image">
+                <h1 class="main-title">Temukan Resep Manca Negara Terbaik Disini</h1>
+            </div>
+    
+            <!-- search bar -->
+            <div>
+                <div class="container search">
+                    <form action="">
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <input type="text" class="form-control form-search">
+                            </div>
+                            <div class="col-2">
+                                <button class="btn btn-search">Cari</button>
+                            </div>
+                        </div>
+    
+                    </form>
+                </div>
+            </div>
+            
+            <!-- recipe list -->
+            <div class="mx-auto row d-flex justify-content-center align-items-center">
+                <h3 class="result-title">Hasil Pencarian Resep</h3>
+            </div>
+    
+            <div class="mx-auto d-flex flex-wrap recipe-list justify-content-center align-items-center" style="margin-bottom: 75px;">
+                <div class="child">
+                    <div class="recipe-item">
+                        <div class="recipe-pic">
+                            
+                        </div>
+                        <div class="row">
+                            <div class="d-flex col-6 justify-content-start align-items-start">
+                                <h4 class="recipe-title" >Fish Pie</h4>
+                            </div>
+                            <div class="d-flex col-6 text-center justify-content-end align-items-start">
+                                <div class="recipe-rectangle">
+                                    <input type="hidden" id="inpKey" type="text" value="favorit">
+                                    <input type="hidden" id="inpVal" type="text" value="fish pie1">
+                                    <button class="btn recipe-button" id="input">Favorit</button>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="recipe-item">
+                        <div class="recipe-pic">
+                            
+                        </div>
+                        <div class="row">
+                            <div class="d-flex col-6 justify-content-start align-items-start">
+                                <h4 class="recipe-title" >Fish Pie</h4>
+                            </div>
+                            <div class="d-flex col-6 text-center justify-content-end align-items-start">
+                                <div class="recipe-rectangle">
+                                    <input type="hidden" id="inpKey2" type="text" value="favorit">
+                                    <input type="hidden" id="inpVal2" type="text" value="fish pie2">
+                                    <button class="btn recipe-button" id="input2">Favorit</button>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="recipe-item">
+                        <div class="recipe-pic">
+                            
+                        </div>
+                        <div class="row">
+                            <div class="d-flex col-6 justify-content-start align-items-start">
+                                <h4 class="recipe-title" >Fish Pie</h4>
+                            </div>
+                            <div class="d-flex col-6 text-center justify-content-end align-items-start">
+                                <div class="recipe-rectangle">
+                                    <input type="hidden" id="inpKey3" type="text" value="favorit">
+                                    <input type="hidden" id="inpVal3" type="text" value="fish pie3">
+                                    <button class="btn recipe-button" id="input3">Favorit</button>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </main>
+    
+    <!-- footer -->
     <footer class="page-footer d-flex justify-content-center align-items-center">
         <h1 class="page-footer-title">Developed By ... </h1>
-
     </footer>
 
+    <script src="assets/bootstrap/js/favorit.js" ></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

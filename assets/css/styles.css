@@ -133,10 +133,13 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
 
   color: #000000;
 
+}
+
+.recipe-button:hover {
+  color: white;
 }
 
 .page-footer {
