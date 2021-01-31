@@ -20,4 +20,7 @@ Membuat Website resep makanan;
 - Fork Repository ini untuk mulai mengerjakan
 - Tambahkan cara instalasi/run di README.md. Jika website di deploy maka tambahkan link pada README.md
 - WhatsApp ke [Qorthony](https://wa.me/08872402827) jika sudah selesai atau ada yang ingin ditanyakan
-- Batas Pengumpulan sebelu waktu interview 
+- Batas Pengumpulan sebelum waktu interview 
+
+## Link Web Deployment
+- Deployed through [Github Pages](http://krisnaandyartha.me/Metamata-code-challenge-frontend/)
