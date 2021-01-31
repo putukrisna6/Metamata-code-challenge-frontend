@@ -3,6 +3,14 @@
   font-weight: 600;
   font-style: normal;
   line-height: 56.35px;
+  text-decoration: none;
+  color: #9CCD62;
+}
+
+.header-title:hover {
+  text-decoration: none;
+  color: #9CCD62;
+  cursor: pointer;
 }
 
 .main-title {
@@ -76,18 +84,9 @@
 
 .child {
   padding: 15px;
-  width: 70%;
+  width: 60%;
   position: relative;
 
-}
-
-@media (min-width: 1000px) {
-  .child {
-    width: 33.33%;
-  }
-  .search {
-    width: 60%;
-  }
 }
 
 .recipe-item {
@@ -110,7 +109,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 21px;
   
   padding: 15px;
@@ -177,14 +176,29 @@
   .btn-search {
     font-size: 18px;
   }
+
+}
+
+@media (max-width: 768px) {
+  .child {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
-  .recipe-title {
-    font-size: 18px;
+  .child {
+    width: 33.33%;
   }
   .recipe-button {
     font-size: 18px;
     width: 80px;
+  }
+}
+
+
+@media (min-width: 1000px) {
+
+  .search {
+    width: 60%;
   }
 }
