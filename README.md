@@ -22,5 +22,9 @@ Membuat Website resep makanan;
 - WhatsApp ke [Qorthony](https://wa.me/08872402827) jika sudah selesai atau ada yang ingin ditanyakan
 - Batas Pengumpulan sebelum waktu interview 
 
+## Usage
+- Download Project
+- Run index.html
+
 ## Link Web Deployment
 - Deployed through [Github Pages](http://krisnaandyartha.me/Metamata-code-challenge-frontend/)
