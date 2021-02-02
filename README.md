@@ -30,4 +30,4 @@ Membuat Website resep makanan;
 - Deployed through [Github Pages](http://krisnaandyartha.me/Metamata-code-challenge-frontend/)
 
 ## Alternate Version
-- ######React Source code [here](https://github.com/putukrisna6/metamata) and deployed through Heroku [here](https://react-app-metamata.herokuapp.com/)
+- ###### React Source code [here](https://github.com/putukrisna6/metamata) and deployed through Heroku [here](https://react-app-metamata.herokuapp.com/)
