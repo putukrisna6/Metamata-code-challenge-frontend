@@ -28,3 +28,6 @@ Membuat Website resep makanan;
 
 ## Link Web Deployment
 - Deployed through [Github Pages](http://krisnaandyartha.me/Metamata-code-challenge-frontend/)
+
+## Alternate Version
+- Created using React and deployed through Heroku [here](https://react-app-metamata.herokuapp.com/)
